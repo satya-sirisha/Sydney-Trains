@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="DemoxmlFilecreation" parallel="false" >
+  <test name="Sanitytests" >
+    <classes>
+       <class name="Testcases.Panatriptestcase" />
+       <class name="Testcases.TrainTimetabletestcase" />
+      </classes>
+  </test>
+</suite>

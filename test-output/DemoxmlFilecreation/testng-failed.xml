@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DemoxmlFilecreation]">
+  <test thread-count="5" name="Sanitytests(failed)">
+    <classes>
+      <class name="Testcases.Panatriptestcase">
+        <methods>
+          <include name="test"/>
+          <include name="afterTest"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- Testcases.Panatriptestcase -->
+    </classes>
+  </test> <!-- Sanitytests(failed) -->
+</suite> <!-- Failed suite [DemoxmlFilecreation] -->
